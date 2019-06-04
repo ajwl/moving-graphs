@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BUCKET=colour-blocks
-BUILD_DIR=dist
+BUCKET=moving-graphs
+BUILD_DIR=build
 
 #import variables from .env 
 USER_NAME=$(grep USER_NAME .env | cut -d '=' -f2)
